@@ -28,4 +28,29 @@ const DUMMY_CATEGORIES = [
     title: 'Portugese',
     color: Colors.purple,
   ),
+  Category(
+    id: 'c6',
+    title: 'Italian',
+    color: Colors.red,
+  ),
+  Category(
+    id: 'c7',
+    title: 'Spanish',
+    color: Colors.green,
+  ),
+  Category(
+    id: 'c8',
+    title: 'Nigerian',
+    color: Colors.blue,
+  ),
+  Category(
+    id: 'c9',
+    title: 'American',
+    color: Colors.orangeAccent,
+  ),
+  Category(
+    id: 'c10',
+    title: 'Portugese',
+    color: Colors.purple,
+  ),
 ];

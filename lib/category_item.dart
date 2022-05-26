@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CategoryItem extends StatelessWidget {
   final String title;
   final Color color;
-  CategoryItem(
+  const CategoryItem(
     this.title,
     this.color,
   );
