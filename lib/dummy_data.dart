@@ -10,12 +10,12 @@ const DUMMY_CATEGORIES = [
   ),
   Category(
     id: 'c2',
-    title: 'Spanish',
+    title: 'Quick and Easy',
     color: Colors.green,
   ),
   Category(
     id: 'c3',
-    title: 'Nigerian',
+    title: 'Hamburger in Mr Biggs',
     color: Colors.blue,
   ),
   Category(
@@ -40,7 +40,7 @@ const DUMMY_CATEGORIES = [
   ),
   Category(
     id: 'c8',
-    title: 'Nigerian',
+    title: 'Exotic',
     color: Colors.blue,
   ),
   Category(
@@ -50,7 +50,17 @@ const DUMMY_CATEGORIES = [
   ),
   Category(
     id: 'c10',
-    title: 'Portugese',
+    title: 'Breakfast in Bed',
     color: Colors.purple,
+  ),
+  Category(
+    id: 'c11',
+    title: 'American',
+    color: Colors.blue,
+  ),
+  Category(
+    id: 'c12',
+    title: 'Summer Part in Greece',
+    color: Colors.indigo,
   ),
 ];
