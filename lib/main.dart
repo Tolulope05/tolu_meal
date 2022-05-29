@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         canvasColor: const Color.fromRGBO(255, 254, 229, 1),
         colorScheme:
             ColorScheme.fromSwatch(primarySwatch: Colors.green).copyWith(
-          secondary: Colors.indigo,
+          secondary: Colors.orange,
           tertiary: const Color.fromRGBO(255, 254, 229, 1),
         ),
         fontFamily: 'Raleway',
@@ -34,7 +34,8 @@ class MyApp extends StatelessWidget {
             ),
       ),
       // home: const CategoriesScreen(),
-      initialRoute: '/', // default is '/'
+      initialRoute: '/',
+
       routes: {
         '/': (ctx) => const CategoriesScreen(),
         CategoryMealsScreen.routeName: (ctx) => const CategoryMealsScreen(),
