@@ -37,9 +37,22 @@ class MyApp extends StatelessWidget {
       initialRoute: '/', // default is '/'
       routes: {
         '/': (ctx) => const CategoriesScreen(),
-        CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
-        MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+        CategoryMealsScreen.routeName: (ctx) => const CategoryMealsScreen(),
+        MealDetailScreen.routeName: (ctx) => const MealDetailScreen(),
       },
+      // onGenerateRoute: (settings) {
+      //   print(settings.arguments);
+      //   print(settings.name);
+      //   // We can use this to gemerate dynamic routes if(settings.name == '/meal-details' {return ....})
+      //   return MaterialPageRoute(
+      //     builder: (ctx) => const CategoriesScreen(),
+      //   );
+      // },
+      // onUnknownRoute: (settings) {
+      //   return MaterialPageRoute(
+      //     builder: (ctx) =>const CategoriesScreen(),
+      //   );
+      // },
     );
   }
 }
