@@ -37,6 +37,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
             child: ListView(
               children: [
                 SwitchListTile(
+                  activeColor: Theme.of(context).colorScheme.primary,
                   title: const Text('Gluten Free'),
                   subtitle: const Text('Only include Gluten Free Meal'),
                   value: _glutenFree,
@@ -49,6 +50,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
                   },
                 ),
                 SwitchListTile(
+                  activeColor: Theme.of(context).colorScheme.primary,
                   title: const Text('Lactose Free'),
                   subtitle: const Text('Only include Lactose Free Meal'),
                   value: _lactoseFree,
@@ -61,6 +63,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
                   },
                 ),
                 SwitchListTile(
+                  activeColor: Theme.of(context).colorScheme.primary,
                   title: const Text('Vegetarian'),
                   subtitle: const Text('Only include Vegetarian Meal'),
                   value: _vegetarian,
@@ -73,6 +76,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
                   },
                 ),
                 SwitchListTile(
+                  activeColor: Theme.of(context).colorScheme.primary,
                   title: const Text('Vegan'),
                   subtitle: const Text('Only include Vegan Free Meal'),
                   value: _vegan,
